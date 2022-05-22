@@ -229,6 +229,58 @@
                                         </div>
                                     </li>
                                 </ul>
+                                <!-- ====================== new added for body type =============================== -->
+                                <ul class="st-mg-list">
+                                    <?php if(!empty($description['body_type_front'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Front</span>
+                                                <span class="mg-size">{{$description['body_type_front']}}</span>
+                                                <?php $b_type = $description['body_type_front']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/front_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                    <?php if(!empty($description['body_type_back'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Back</span>
+                                                <span class="mg-size">{{$description['body_type_back']}}</span>
+                                                <?php $b_type = $description['body_type_back']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/back_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                    <?php if(!empty($description['body_type_shoulder'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Shoulder</span>
+                                                <span class="mg-size">{{$description['body_type_shoulder']}}</span>
+                                                <?php $b_type = $description['body_type_shoulder']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/shoulder_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                    <?php if(!empty($description['body_type_stomach'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Stomach</span>
+                                                <span class="mg-size">{{$description['body_type_stomach']}}</span>
+                                                <?php $b_type = $description['body_type_stomach']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/stomach_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                </ul>
+                                <!-- ====================== end for body type ===================================== -->
                             </div>
                         </div>
                     </div> 

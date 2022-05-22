@@ -207,6 +207,54 @@
       </table>
     </td>
   </tr>
+  <!-- ===================================== new added for body type ===================================== -->
+  <?php 
+  if(!empty($description['body_type_front']) && !empty($description['body_type_back'])
+  && !empty($description['body_type_shoulder']) && !empty($description['body_type_stomach'])):
+  ?>
+    <tr>
+      <td colspan="2" style="background-color:#FFF;text-align:left; padding-left:8px;"><b>Body Type</b></td>
+    </tr>
+    <tr> 
+      <td colspan="2">
+        <table style="background-color: #f1f1f1; font-size:14px; width:50%; text-align:center">
+          <tr>
+            <td>Front : <?=$description['body_type_front']?></td>
+            <td>Back : <?=$description['body_type_back']?></td>
+            <td>Shoulder : <?=$description['body_type_shoulder']?></td>
+            <td>Stomach : <?=$description['body_type_stomach']?></td>
+          </tr>
+          <tr>
+            <td>
+              <?php $b_type = $description['body_type_front']; ?>
+              <figure style="margin-bottom:10px;background-color:#3a2311;">
+                  <img src="<?=asset('/asset/img/body_type/front_'.$b_type.'.png')?>" alt="" style="width:100px;">
+              </figure>
+            </td>
+            <td>
+              <?php $b_type = $description['body_type_back']; ?>
+              <figure style="margin-bottom:10px;background-color:#3a2311;">
+                  <img src="<?=asset('/asset/img/body_type/back_'.$b_type.'.png')?>" alt="" style="width:100px;">
+              </figure>
+            </td>
+            <td>
+              <?php $b_type = $description['body_type_shoulder']; ?>
+              <figure style="margin-bottom:10px;background-color:#3a2311;">
+                  <img src="<?=asset('/asset/img/body_type/shoulder_'.$b_type.'.png')?>" alt="" style="width:100px;">
+              </figure>
+            </td>
+            <td>
+              <?php $b_type = $description['body_type_stomach']; ?>
+              <figure style="margin-bottom:10px;background-color:#3a2311;">
+                  <img src="<?=asset('/asset/img/body_type/stomach_'.$b_type.'.png')?>" alt="" style="width:100px;">
+              </figure>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  <?php endif; ?>
+  <!-- ===================================== end for body type =========================================== -->
 </table>
 <!-- ================================================ pant info ======================================== -->
 <?php

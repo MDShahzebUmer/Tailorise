@@ -76,11 +76,7 @@
 
 
     <h1 class="page-title">
-
         <i class="voyager-data"></i>Product Details:
-
-       
-
     </h1>
 
 @stop
@@ -88,88 +84,54 @@
 @section('content')
 
 <div class="page-content container-fluid">
-
     <div class="row">
-
         <div class="col-md-12">
-
             <div class="panel panel-bordered">
-
                 <div class="panel-body">
-
-				<?php
-                $description=unserialize($data->item_description);
-                ?>
-			<script>
-				$(document).ready(function(e) {
-				var arr='<?php echo json_encode($description); ?>';
-				designProcessing(JSON.parse(arr),1);
-				});
-            </script> 
-
+				<?php $description=unserialize($data->item_description); ?>
+    			<script>
+    				$(document).ready(function(e) {
+    				    var arr='<?php echo json_encode($description); ?>';
+    				    designProcessing(JSON.parse(arr),1);
+    				});
+                </script> 
                 <!-- single order list view start here -->
-
                     <div class="col-sm-4">
-
                         <div class="st-img-box">
-
-                          <div class="pt-men-left" id="main-front-etstyle">
-<div id="plod" style="display:block; width:80px; position: absolute;left: 30%; top: 35%;"><img width="80" src="{{URL::asset('asset/img/page-loader.gif')}}"></div>
+                            <div class="pt-men-left" id="main-front-etstyle">
+                                <div id="plod" style="display:block; width:80px; position: absolute;left: 30%; top: 35%;"><img width="80" src="{{URL::asset('asset/img/page-loader.gif')}}"></div>
                                 <div class="pt-image-div">
-
-                                <div class="pt-men">
-                                <div class="pt-image-div">
-                                <div id="main-front-1"><div class="pt-image-div"><img src=""  alt="" width="340px"/></div></div>
-                                </div>   
-                                </div>
+                                    <div class="pt-men">
+                                        <div class="pt-image-div">
+                                            <div id="main-front-1"><div class="pt-image-div"><img src=""  alt="" width="340px"/></div></div>
+                                        </div>   
+                                    </div>
                                    <!-- <img src="{{URL::asset('/storage/'.$data->canvas_front_img)}}"/>-->
-
                                 </div>
                                 <div class="pt-price-shirt" >
-
                                     <a href="javascript:void(0);" class="pt-back-btn" onClick="javascript:viewMainBack('etstyle');">BACK VIEW </a>
-
                                 </div>  
-
                             </div>
-
                             <div class="pt-men-left" id="main-back-etstyle"  style="display:none;">
-
                                 <div class="pt-image-div">
-
                                     <!--<img src="{{URL::asset('/storage/'.$data->canvas_back_img)}}"/>-->
-                                <div class="pt-men">
-                                <div class="pt-image-div">
-                                <div id="main-back-1"><div class="pt-image-div"><img src=""  alt="" width="340px"/></div></div>
-                                </div>
-                                </div>
-
+                                    <div class="pt-men">
+                                        <div class="pt-image-div">
+                                            <div id="main-back-1"><div class="pt-image-div"><img src=""  alt="" width="340px"/></div></div>
+                                        </div>
+                                    </div>
                                 </div>   
-
-                               
-
                                 <div class="pt-price-shirt" >
-
                                     <a href="javascript:void(0);" class="pt-back-btn" onClick="javascript:viewMainFront('etstyle');">FRONT VIEW </a>
-
                                 </div>  
-
                             </div>
-
                         </div>
-
                     </div>
-
                     <div class="col-sm-8">
-
                         <a href="{{url()->previous()}}" class="st-remove-btn"><img src="{{asset('asset/img/remove.png')}}"></a>
-
                         <div class="st-content-box full-width">
-
                             <div class="st-box-left">
-
                                 <ul class="st-mf-list">
-
                                     <li class="st-mf-item"><label>Fabric</label><span>{{$description['ofabricName']}} <figure><img src="{{URL::asset('/storage/'.$description['ofabricImage'])}}" alt="{{$description['ofabricName']}}" title="{{$description['ofabricName']}}" width="10%"></figure></span></li>
 
                                     <li class="st-mf-item"><label>Sleeve</label><span>{{$description['osleeveName']}} @if($description['oshoulder']=='true')with Epaulettes @endif</span></li>
@@ -187,223 +149,162 @@
                                     <li class="st-mf-item"><label>Bottom Style</label><span>{{$description['obottomName']}}</span></li>
 
                                     <li class="st-mf-item"><label>Monogram</label><span>{{$description['omonogramName']}} @if($description['omonogramName']!='No Monogram'), Color : {{$description['omonogramCode']}}@endif</span></li>
-<li class="st-mf-item"><label>Monogram Text</label><span>{{$description['omonogramText']}}</span></li>
+                                    <li class="st-mf-item"><label>Monogram Text</label><span>{{$description['omonogramText']}}</span></li>
 
                                     <li class="st-mf-item"><label>Buttons & Thread</label><span>{{$description['obuttonName']}} Button { {{$description['obuttonCode']}} } , <br>{{{$description['obuttonHoleStyleName']}}} { {{$description['obuttonHoleCode']}} }</span></li>
-
-                                    
-
                                 </ul>
-
                             </div>
-
                             <div class="st-box-right">
-
                                 <ul class="st-mf-list">
-
                                     <li class="pt-mf-item"><label>Contrast</label><span>{{$description['ocontrastName']}} <img src="{{URL::asset('/storage/'.$sss = App\Http\helpers::alltebinfo('contrasts',$description['ocontrast'],'contrsfab_img'))}}" width="24"  alt="{{$description['ocontrastName']}}" title="{{$description['ocontrastName']}}"></span></li>
-
                                 </ul>
-
-
-
-                                 <?php
-
-                                        $cuffIn = App\Http\helpers::optionval($description['ocollarCuffIn']);
-
-                                        $cuffout = App\Http\helpers::optionval($description['ocollarCuffout']);
-
-                                        $placketin = App\Http\helpers::optionval($description['ofrontPlacketIn']);
-
-                                        $placketout = App\Http\helpers::optionval($description['ofrontPlacketOut']);
-
-                                        $boxout = App\Http\helpers::optionval($description['ofrontBoxOut']);
-
-                                        $boxin = App\Http\helpers::optionval($description['obackBoxOut']);
-
-                                        ?>
-
+                                <?php
+                                    $cuffIn = App\Http\helpers::optionval($description['ocollarCuffIn']);
+                                    $cuffout = App\Http\helpers::optionval($description['ocollarCuffout']);
+                                    $placketin = App\Http\helpers::optionval($description['ofrontPlacketIn']);
+                                    $placketout = App\Http\helpers::optionval($description['ofrontPlacketOut']);
+                                    $boxout = App\Http\helpers::optionval($description['ofrontBoxOut']);
+                                    $boxin = App\Http\helpers::optionval($description['obackBoxOut']);
+                                ?>
                                 <div class="st-indiv-block">
-
                                     <h5>Collar Contrast</h5>
-
                                     <ul class="st-mf-list">
-
                                         <li class="st-mf-item"><label>Inside</label><span>{{$cuffIn}}</span></li>
-
                                         <li class="st-mf-item"><label>Outside</label><span>{{$cuffout}}</span></li>
-
-                                        
-
                                     </ul>
-
                                 </div>
-
                                 <div class="st-indiv-block">
-
                                     <h5>Cuff Contrast</h5>
-
                                     <ul class="st-mf-list">
-
                                         <li class="st-mf-item"><label>Inside</label><span>{{$cuffIn}}</span></li>
-
                                         <li class="st-mf-item"><label>Outside</label><span>{{$cuffout}}</span></li>
-
-                                        
-
                                     </ul>
-
                                 </div>
-
                                 <div class="st-indiv-block">
-
                                     <h5>Front/Back Placket Contrast</h5>
-
                                     <ul class="st-mf-list">
-
                                         <li class="st-mf-item"><label>Inside</label><span>{{$placketin}}</span></li>
-
                                         <li class="st-mf-item"><label>Outside</label><span>{{$placketout}}</span></li>
-
                                         <li class="st-mf-item"><label>Front Box Pl..</label><span>{{$boxout}}</span></li>
-
                                         <li class="st-mf-item"><label>Back Box Pl..</label><span>{{$boxin}}</span></li>
-
-                                        
-
                                     </ul>
-
                                 </div>
-
                             </div>
-
                             <div class="st-box-bottom">
-
                                 <h5><span>Type Measure:</span> {{$description['osizePattern']}} , {{$description['osizeStyle']}} { {{$description['osizeType']}} }</h5>
-
-                                <?php if($description['osizePattern']=='Body'){?>
-
                                 <ul class="st-mg-list">
-
-                                    <li class="st-mg-item">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Neck</span>
-
-                                            <span class="mg-size">{{$description['osizeNeck']}}</span>
-
-                                        </div>
-
-                                    </li>
-
-                                    <li class="st-mg-item">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Chest</span>
-
-                                            <span class="mg-size">{{$description['osizeChest']}}</span>
-
-                                        </div>
-
-                                    </li>
-
-                                    <li class="st-mg-item">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Waist</span>
-
-                                            <span class="mg-size">{{$description['osizeWaist']}}</span>
-
-                                        </div>
-
-                                    </li>
-
-                                    <li class="st-mg-item">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Hip</span>
-
-                                            <span class="mg-size">{{$description['osizeHip']}}</span>
-
-                                        </div>
-
-                                    </li>
-
-                                    <li class="st-mg-item">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Shoulder</span>
-
-                                            <span class="mg-size">{{$description['osizeShoulder']}}</span>
-
-                                        </div>
-
-                                    </li>
-
-                                    <li class="st-mg-item">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Sleeve</span>
-
-                                            <span class="mg-size">{{$description['osizeSleeve']}}</span>
-
-                                        </div>
-
-                                    </li>
-                                    <li class="st-mg-item">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Length</span>
-
-                                            <span class="mg-size">{{$description['osizeLength']}}</span>
-
-                                        </div>
-
-                                    </li>
-
+                                    <?php if($description['osizePattern']=='Body' || $description['osizePattern'] == 'Outfit' ){?>
+                                        <li class="st-mg-item">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Neck</span>
+                                                <span class="mg-size">{{$description['osizeNeck']}}</span>
+                                            </div>
+                                        </li>
+                                        <li class="st-mg-item">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Chest</span>
+                                                <span class="mg-size">{{$description['osizeChest']}}</span>
+                                            </div>
+                                        </li>
+                                        <li class="st-mg-item">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Waist</span>
+                                                <span class="mg-size">{{$description['osizeWaist']}}</span>
+                                            </div>
+                                        </li>
+                                        <li class="st-mg-item">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Hip</span>
+                                                <span class="mg-size">{{$description['osizeHip']}}</span>
+                                            </div>
+                                        </li>
+                                        <li class="st-mg-item">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Shoulder</span>
+                                                <span class="mg-size">{{$description['osizeShoulder']}}</span>
+                                            </div>
+                                        </li>
+                                        <li class="st-mg-item">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Sleeve</span>
+                                                <span class="mg-size">{{$description['osizeSleeve']}}</span>
+                                            </div>
+                                        </li>
+                                        <li class="st-mg-item">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Length</span>
+                                                <span class="mg-size">{{$description['osizeLength']}}</span>
+                                            </div>
+                                        </li>
                                     <?php }else{?>
-
-                                    <li class="st-mg-item" style=" width:80px;">
-
-                                        <div class="st-small-box">
-
-                                            <span class="mg-title">Size</span>
-
-                                            <span class="mg-size">{{$description['osizeFit']}}</span>
-
-                                        </div>
-
-                                    </li>
-
+                                        <li class="st-mg-item" style=" width:80px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Size</span>
+                                                <span class="mg-size">{{$description['osizeFit']}}</span>
+                                            </div>
+                                        </li>
                                     <?php }?>
-
                                 </ul>
-
+                                <!-- ====================== new added for body type =============================== -->
+                                <ul class="st-mg-list">
+                                    <?php if(!empty($description['body_type_front'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Front</span>
+                                                <span class="mg-size">{{$description['body_type_front']}}</span>
+                                                <?php $b_type = $description['body_type_front']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/front_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                    <?php if(!empty($description['body_type_back'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Back</span>
+                                                <span class="mg-size">{{$description['body_type_back']}}</span>
+                                                <?php $b_type = $description['body_type_back']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/back_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                    <?php if(!empty($description['body_type_shoulder'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Shoulder</span>
+                                                <span class="mg-size">{{$description['body_type_shoulder']}}</span>
+                                                <?php $b_type = $description['body_type_shoulder']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/shoulder_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                    <?php if(!empty($description['body_type_stomach'])): ?>
+                                        <li class="st-mg-item" style="margin-top:5px;margin-right:5px;">
+                                            <div class="st-small-box">
+                                                <span class="mg-title">Body Type Stomach</span>
+                                                <span class="mg-size">{{$description['body_type_stomach']}}</span>
+                                                <?php $b_type = $description['body_type_stomach']; ?>
+                                                <figure style="margin-bottom:10px;">
+                                                    <img src="{{asset('/asset/img/body_type/stomach_'.$b_type.'.png')}}" alt="" style="width:100px;">
+                                                </figure>
+                                            </div>
+                                        </li>
+                                    <?php endif; ?>
+                                </ul>
+                                <!-- ====================== end for body type ===================================== -->
                             </div>
-
                         </div>
-
                     </div> 
-
                 <!-- single order list view -->
-
-              
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
 
 <script>
