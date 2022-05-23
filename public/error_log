@@ -10,3 +10,157 @@
 [28-Oct-2021 03:15:23 America/Boise] PHP Warning:  require(/home2/becoming/public_html/DuniyaTailorDemo/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/becoming/public_html/DuniyaTailorDemo/public/index.php on line 34
 [28-Oct-2021 03:15:23 America/Boise] PHP Warning:  require(/home2/becoming/public_html/DuniyaTailorDemo/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/becoming/public_html/DuniyaTailorDemo/public/index.php on line 34
 [28-Oct-2021 03:15:23 America/Boise] PHP Fatal error:  require(): Failed opening required '/home2/becoming/public_html/DuniyaTailorDemo/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/becoming/public_html/DuniyaTailorDemo/public/index.php on line 34
+[13-Feb-2022 13:08:34 UTC] PHP Notice:  Undefined index: c_code in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/get_regular_expression.php on line 167
+[13-Feb-2022 13:08:34 UTC] PHP Notice:  Undefined index: zipcode in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/get_regular_expression.php on line 168
+[17-Feb-2022 07:30:38 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.26. in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/vendor/composer/platform_check.php on line 24
+[17-Feb-2022 07:30:49 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.26. in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/vendor/composer/platform_check.php on line 24
+[20-Feb-2022 16:42:50 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:42:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:42:58 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:42:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:01 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:04 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:06 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:14 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:36 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:54 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:58 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:43:58 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:44:51 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:44:51 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:45:24 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:45:24 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:46:32 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:46:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:46:36 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:46:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:47:25 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:47:25 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:47:59 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:47:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:48:45 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:48:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:48:48 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:48:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:49:47 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:49:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:49:49 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:49:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:51:57 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:51:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:54:57 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:54:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:55:01 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:55:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:59:59 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 16:59:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[20-Feb-2022 23:02:12 UTC] PHP Warning:  Undefined array key "c_code" in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/get_regular_expression.php on line 167
+[20-Feb-2022 23:02:12 UTC] PHP Warning:  Undefined array key "zipcode" in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/get_regular_expression.php on line 168
+[21-Feb-2022 13:45:47 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:45:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:45:51 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:45:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:46:02 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:46:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:46:05 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:46:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:47:55 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:47:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:47:58 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:47:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:57:53 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 13:57:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 14:01:18 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 14:01:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 14:08:52 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 14:08:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 14:08:58 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[21-Feb-2022 14:08:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[22-Feb-2022 12:18:30 UTC] PHP Warning:  require(/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[22-Feb-2022 12:18:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/public/index.php on line 34
+[11-Mar-2022 05:59:40 UTC] PHP Deprecated:  Required parameter $id follows optional parameter $file in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/vendor/tcg/voyager/src/Http/Controllers/VoyagerFabricDesignController.php on line 860
+[25-Mar-2022 11:39:17 UTC] PHP Deprecated:  Required parameter $id follows optional parameter $file in /home/tkzj4w1ztvzy/public_html/www.duniyatailor.com/vendor/tcg/voyager/src/Http/Controllers/VoyagerFabricDesignController.php on line 860

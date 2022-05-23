@@ -105,11 +105,7 @@ class VestController extends Controller
 			'oqty'=>'1',
 			'ofrontView'=>'',
 			'obackView'=>'',
-			'ocartID'=>'',
-			'body_type_front'=>'normal',
-			'body_type_back'=>'normal',
-			'body_type_shoulder'=>'normal',
-			'body_type_stomach'=>'normal'
+			'ocartID'=>''
 		];
 		
 		$mytab="etfabric";
@@ -526,7 +522,7 @@ class VestController extends Controller
 			$finalarr = json_decode($request['setarr'], true);
 			
 			$finalarr['osizePattern']= $request['mpattern'];
-		   if($request['mpattern']=="Body" || $request['mpattern']=="Outfit"){
+		   if($request['mpattern']=="Body"){
 				$finalarr['osizeStyle']= $request['fitstyle'];			
 				$finalarr['osizeType']= $request['bsizetyp'];			
 				$finalarr['osizeChest']= $request['bsizeChest'];
