@@ -154,7 +154,7 @@ class MobilePantController extends Controller
 
 		$finalarr = $eTailorObj;
 		$finalarr['osizePattern']= $request['mpattern'];
-		if($request['mpattern']=="Body" || $request['mpattern']=="Outfit"){
+		if($request['mpattern']=="Body"){
 			$finalarr['osizeStyle']= $request['fitstyle'];			
 			$finalarr['osizeType']= $request['bsizetyp'];				
 			$finalarr['osizeWaist']= $request['bsizeWaist'];
